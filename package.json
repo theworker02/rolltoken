@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/rolltoken",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Roll HTML/Markdown token fragments safely for docs pipelines.",
+  "bin": {
+    "rolltoken": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/rolltoken.git"
+  },
+  "homepage": "https://theworker02.github.io/rolltoken/",
+  "keywords": [
+    "roll",
+    "token",
+    "markup",
+    "cli",
+    "toolkit"
+  ]
+}
